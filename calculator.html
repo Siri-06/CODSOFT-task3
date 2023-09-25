@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css"/>
+    </head>
+    <body>
+        
+        <center><table border="1" cellspacing="5px" cellpadding=""5px>
+            <caption><h1>CALCULATOR</h1></caption>
+            <tr>
+                <td colspan="3" align="center" bgcolor="blue"><input type="text" id="res"/></td>
+                <td><button onclick="allClear()">AC</button></td>
+            </tr>
+            <tr>
+                <td align="center"><button onclick="fromKeyboard('1')">1</button></td>
+                <td align="center"><button onclick="fromKeyboard('2')">2</button></td>
+                <td align="center"><button onclick="fromKeyboard('3')">3</button></td>
+                <td align="center"><button onclick="fromKeyboard('+')">+</button></td>
+            </tr>
+            <tr>
+                <td align="center"><button onclick="fromKeyboard('4')">4</button></td>
+                <td align="center"><button onclick="fromKeyboard('5')">5</button></td>
+                <td align="center"><button onclick="fromKeyboard('6')">6</button></td>
+                <td align="center"><button onclick="fromKeyboard('-')">-</button></td>
+            </tr>
+            <tr>
+                <td align="center"><button onclick="fromKeyboard('7')">7</button></td>
+                <td align="center"><button onclick="fromKeyboard('8')">8</button></td>
+                <td align="center"><button onclick="fromKeyboard('9')">9</button></td>
+                <td align="center"><button onclick="fromKeyboard('*')">*</button></td>
+            </tr>
+            <tr>
+                <td align="center"><button onclick="fromKeyboard('0')">0</button></td>
+                <td align="center"><button onclick="fromKeyboard('%')">%</button></td>
+                <td align="center"><button onclick="fromKeyboard('/')">/</button></td>
+                <td align="center"><button onclick="calculation()">=</button></td>
+            </tr>
+        </table></center>
+        <script type="text/javascript" src="calculator.js"></script>
+    </body>
+</html>

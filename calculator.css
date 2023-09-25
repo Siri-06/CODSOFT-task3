@@ -1,0 +1,25 @@
+body{
+    background-color:aqua;
+}
+button{
+    background-color: darkgray;
+    color:white;
+    padding:15px 35px;
+    text-align: center;
+    font-size: 25px;
+    border-radius:8px;
+}
+#res{
+   font-size:25px; 
+   border-radius: 8px;
+}
+h1{
+    background-color:deeppink;
+    color:white;
+    border-radius:8px;
+}
+table{
+    border-radius: 9px;
+    background-color: blue;
+    border-color: blue;
+}
